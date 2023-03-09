@@ -1,0 +1,21 @@
+package com.torc.ui.demo.stepdefinitions;
+
+import static org.assertj.core.api.Assertions.assertThat;
+
+import com.torc.ui.demo.base.BaseSteps;
+
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.Then;
+
+public class ResultsSteps extends BaseSteps{
+		
+	@When("Open the first result")
+	public void openFirstResult() {
+	    resultsPage.openFirtResult();
+	}
+	
+	@Then("Open the first result")
+	public void checkIfUrlContains() {
+	    resultsPage.openFirtResult();
+	}
+}

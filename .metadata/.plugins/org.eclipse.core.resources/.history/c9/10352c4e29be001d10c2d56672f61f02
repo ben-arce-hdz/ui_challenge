@@ -1,0 +1,6 @@
+@searches @regression
+Feature: Scenarios of searches
+	This feature validates some scenarios about searching.
+	
+Scenario: Searching an URL
+		Given 	I search "The dev-friendly football API"

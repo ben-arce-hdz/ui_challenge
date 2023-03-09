@@ -1,0 +1,6 @@
+#qa properties
+webdriver.wait.timeout=30
+app.url=https://duckduckgo.com
+browser=chrome
+screenshot.path=target/screenshots
+browser.isheadless=false
